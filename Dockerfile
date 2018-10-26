@@ -1,6 +1,7 @@
 #JustDocker
 From ubuntu:latest
-RUN apt-get update
+RUN apt-get update -y
+RUN apt-get upgrade -y
 RUN apt-get install apt-utils -y
 RUN apt-get install build-essential unzip -y
 RUN apt-get install software-properties-common -y
