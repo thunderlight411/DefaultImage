@@ -11,5 +11,5 @@ RUN apt-get install apt-transport-https -y
 RUN apt-get install wget mysql-client vim -y
 RUN apt-get install nodejs npm -y
 RUN apt-get install openjdk-16-jdk git -y
-RUN apt-get install ftp -y
+RUN apt-get install ftp curl -y
 RUN apt-get clean -y
